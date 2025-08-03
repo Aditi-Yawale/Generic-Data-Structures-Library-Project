@@ -35,20 +35,23 @@ This project is a generic, object-oriented library in C++ that implements essent
 ## 💡 Sample Usage
 
 ### Singly Linked List
-
+```cpp
 SinglyLL<int> sll;
 sll.InsertFirst(10);
 sll.InsertLast(20);
 sll.Display(); 
 // Output: | 10 |-> | 20 |-> NULL
+```
 
 ### Binary Search Tree
+```cpp
 BST<int> bst;
 bst.Insert(50);
 bst.Insert(30);
 bst.Insert(70);
 bst.DisplayInorder();  
 // Output: 30 50 70
+```
 
 ## 📥 Using as a Header Library
 You can directly reuse this data structure library in your own C++ projects.
@@ -57,7 +60,7 @@ You can directly reuse this data structure library in your own C++ projects.
 Rename or copy Generic_Data_Structures_Library.cpp as GenericDS.h.
 
 Add in your own code:
-
+```cpp
 #include "GenericDS.h"
 
 int main() {
@@ -74,7 +77,7 @@ int main() {
 
     return 0;
 }
-
+```
 ### Step 2: Compile as usual
 
 g++ -o my_project main.cpp
