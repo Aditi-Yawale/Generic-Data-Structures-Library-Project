@@ -79,7 +79,8 @@ int main() {
 }
 ```
 ### Step 2: Compile as usual
-
+```cpp
 g++ -o my_project main.cpp
+```
 
 No need to compile the data structure file separately as it will be compiled together with your main.cpp.
