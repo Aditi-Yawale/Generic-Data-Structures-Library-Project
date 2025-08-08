@@ -1,5 +1,9 @@
-//GENERIC DATA STRUCTURES LIBRARY
-//ADITI YAWALE
+///////////////////////////////////////////////////////
+//
+// PROJECT : GENERIC DATA STRUCTURES LIBRARY
+// AUTHOR : ADITI YAWALE
+//
+////////////////////////////////////////////////////////
 
 #include<iostream>
 using namespace std;
